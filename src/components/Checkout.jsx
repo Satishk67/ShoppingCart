@@ -26,7 +26,7 @@ function Checkout(){
             <h3 className="heading">Your Cart</h3>
             <h1 className="heading">SUMMARY</h1>
             <p className="count">Total Items : {count}</p>
-            <p className="total">Total Amout : $ {bill}</p>
+            <p className="total">Total Amout : ${bill}</p>
             <div className="checkout-btn-box">
                 <button className="checkout-btn home-btn" onClick={checkoutfn}>Checkout Now</button>
             </div>
